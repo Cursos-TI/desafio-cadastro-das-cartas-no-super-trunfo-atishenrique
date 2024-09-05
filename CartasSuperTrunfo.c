@@ -61,11 +61,20 @@ int main (){
     scanf("%f", &PIBcid04);
     printf("Agora digite a quantidade de Pontos Turísticos da sua quarta cidade:\n");
     scanf("%d", &PTcid04);
+
+    printf("Segue abaixo as informações de cada cidade:\n");
+    printf("Cidade 01:\n - Nome: %s\n - População: %d\n", cidade01, populacaocid01);
+    printf("- Área: %f\n - PIB: %f\n - Quantidade de Pontos Turísticos: %d\n,",  areacid01, PIBcid01, PTcid01);
+
+    printf("Cidade 02:\n - Nome: %s\n - População: %d\n", cidade02, populacaocid02);
+    printf("- Área: %f\n - PIB: %f\n - Quantidade de Pontos Turísticos: %d\n,",  areacid02, PIBcid02, PTcid02);
+
+    printf("Cidade 03:\n - Nome: %s\n - População: %d\n", cidade03, populacaocid03);
+    printf("- Área: %f\n - PIB: %f\n - Quantidade de Pontos Turísticos: %d\n,",  areacid03, PIBcid03, PTcid03);
+
+    printf("Cidade 04:\n - Nome: %s\n - População: %d\n", cidade04, populacaocid04);
+    printf("- Área: %f\n - PIB: %f\n - Quantidade de Pontos Turísticos: %d\n,",  areacid04, PIBcid04, PTcid04);
+
     
-
-
-
-    printf("O código da sua carta é B01, B02, B03B 04");
-
     return 0;
 }
